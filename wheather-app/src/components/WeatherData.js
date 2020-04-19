@@ -7,7 +7,7 @@ import { CLOUD, CLOUDY, SUN, RAIN, SNOW, WINDY, FOG,
 const WeatherData = () => (
     <div>
         <WeatherTemperature 
-            temperature={20} 
+            temperature={23} 
             weatherState={SUN}
         />
         <WeatherExtraInfo humidity={80} wind={"10 m/s"}/>
