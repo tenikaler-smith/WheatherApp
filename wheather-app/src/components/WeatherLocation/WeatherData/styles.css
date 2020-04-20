@@ -25,7 +25,19 @@ body{
     display: inline-block;
 }
 
-.weatherIcons{
+.wicon{
     color: #ffff;
-    box-shadow: aqua;
+    box-shadow:#0000;
+}
+
+.temperature{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.temperatureType{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.842); 
 }
