@@ -1,0 +1,31 @@
+html{
+    
+}
+body{
+    
+}
+
+.weatherDataCont{
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.weatherExtraInfoCont{
+    width: 40%;
+    display: inline-block;
+    border-radius: 0px 15px 15px 0px;
+    background-color: darkorchid;
+}
+
+.weatherTemperatureCont{
+    width: 60%;
+    display: inline-block;
+}
+
+.weatherIcons{
+    color: #ffff;
+    box-shadow: aqua;
+}
