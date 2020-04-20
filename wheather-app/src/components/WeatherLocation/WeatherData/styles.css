@@ -1,23 +1,18 @@
-html{
-    
-}
-body{
-    
-}
 
 .weatherDataCont{
     width: 400px;
     height: 100px;
     line-height: 100px;
-    background-color: blue;
+    background-color: rgba(200, 200, 2000, 0.5);
     border-radius: 15px;
+    margin: 15px;
 }
 
 .weatherExtraInfoCont{
     width: 40%;
     display: inline-block;
-    border-radius: 0px 15px 15px 0px;
-    background-color: darkorchid;
+    line-height: 28px;
+    text-align: left;
 }
 
 .weatherTemperatureCont{
@@ -25,19 +20,25 @@ body{
     display: inline-block;
 }
 
-.wicon{
-    color: #ffff;
-    box-shadow:#0000;
-}
-
 .temperature{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     padding-left: 20px;
-    color: #fff;
+    color: #333;
 }
 
 .temperatureType{
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.842); 
+    color: #666; 
+}
+
+.extraInfoText{
+    display: block;
+    color: #1535C5;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.wicon{
+    color: rgb(255, 72, 0);
 }
